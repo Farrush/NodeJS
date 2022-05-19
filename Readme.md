@@ -1,17 +1,17 @@
-*** Instalando Node
+ Instalando Node
 
 Comandos:
 
-npm init 
+* npm init <br/>
 "Cria a pasta 'package.json'"
 
-npm install -g typescript
+* npm install -g typescript <br/>
 "Instala o typescript"
 
-npm i @types/node
+* npm i @types/node <br/>
 "Instala o 'auto-complete' do typescript"
 
-tsc -init
+* tsc -init
 "Ative as seguintes linhas no arquivo 'tsconfig.json':
     "rootDir": "./src",(colocar './src')
     "moduleResolution": "node",
@@ -19,10 +19,10 @@ tsc -init
 "
 (Após isso crie a pasta 'src' com o arquivo 'index.ts' dentro)
 
-npm i nodemon
+* npm i nodemon <br/>
 "Instala o nodemon que executa nosso arquivo typescript"
 
-npm i -D ts-node
+* npm i -D ts-node <br/>
 "Caso o nodemon sozinho não funcione, use esse comando"
 
 
