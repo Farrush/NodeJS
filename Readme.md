@@ -8,7 +8,7 @@ Comandos:
 * npm install -g typescript <br/>
 "Instala o typescript"
 
-* npm i @types/node <br/>
+* npm i --save-dev @types/node <br/>
 "Instala o 'auto-complete' do typescript"
 
 * tsc -init
